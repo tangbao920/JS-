@@ -3,25 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        #test{
+            width:200px;
+            padding:20px;
+        }
+    </style>
 </head>
 <body>
 <h1>所有的课程</h1>
 <!--这里是注释-->
 <h2>课程列表</h2>
-<ul id="test">
+<ul id="test" style="width:200px;">
     <li>数学</li>
     <li>语文</li>
     <li>英文</li>
     <li>物理</li>
     <li>化学</li>https://blog.csdn.net/laok_/article/details/75760572
 </ul>
+这里是说明
 <div>课程说明11</div>
 <div>课程说明2</div>
+<div id="oDIV"></div>
 <script>
-    /* var oDiv=document.getElementsByTagName("body")[0];
-     console.dir();*/
-    var oDiv=document.getElementById("test");
-    console.dir(oDiv.previousSiblings);
+    var test=document.getElementById("test");
+    function getElementLeft(el) {
+        var left=el.offsetLeft;
+        var cur=el.offsetParent;
+        while (cur!=null){
+            left+=cur.offsetLeft+cur.clientLeft;
+            cur=cur.offsetParent;
+        }
+        return left;
+    }
+    function getElementTop(element){
+        var actualTop = element.offsetTop;
+        var current = element.offsetParent;
+        while(current != null){
+            actualTop += current.offsetTop + current.clientTop;
+            current = current.offsetParent;
+        }
+        return actualTop;
+    }
+
+    console.log(getElementTop(test));
+
+    console.log(getElementLeft(test));
 </script>
 </body>
 </html>

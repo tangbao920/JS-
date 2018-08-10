@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  /*  function Fn() {
+        console.log(1);
+    }
+    var f=new Fn();
+    console.log(f.__proto__===Fn.prototype);
+    console.log(Fn instanceof Function);
+    console.log(Fn.__proto__===Function.prototype);
+    console.log(Fn.prototype.__proto__===Object.prototype);
+    console.dir(f);
+    console.dir(Fn);
+    console.dir(Function);*/
+    /*for(var i=0;i<5;i++){
+        ;(function (i) {
+            setTimeout(function () {
+                console.log(i);
+            },(i*1000));
+        })(i);
+    }*/
+   /* var ary=['m',1,NaN,20,3,'20px',56,18,Infinity];*/
+/*    var result=[];
+    ary.forEach((item,index)=>{
+         if(!isNaN(Number(item))){
+            result.push(Number(item));
+         }
+    });
+     var r= result.reduce((pre,curr)=>{
+          return pre+curr;
+      },0);
+  console.log(r);*/
+/*     var result=ary.map((item,index)=>{
+         if(!isNaN(Number(item)) && isFinite(item)){
+            return item;
+         }else{
+             return 0;
+         }
+     }).reduce((pre,curr)=>{
+         return pre+curr;
+     },0);
+  console.log(result);*/
+ /* Object.prototype.A="hhh";
+  function A()
+  {
+      this.x=100;
+  }
+  A.prototype.getX=function()
+  {
+      console.log(this.x);
+  }
+  function B()
+  {
+      var temp=new A;
+      for(var key in temp)
+      {
+          console.log(key);
+          this[key]=temp[key];
+      }
+      temp=null;
+  }
+  var b=new B;
+  console.log(b);
+  console.dir(Object.prototype);*/
+  /*var ary=[12,34,32,56,39,68];
+  console.log(ary.toString());
+  console.log(eval('Math.max('+ary.toString()+')'));
+  console.log(Math.max.apply(null,ary));
+  console.log(Math.max.call(null,ary.toString()));*/
+/*  var reg=/\d+?/g;
+  var str="zhufeng2016peixun2017";
+  var res=reg.exec(str);
+  var result=[];
+  while (res){
+      result.push(res[0]);
+      res=reg.exec(str);
+  }
+  console.log(result);*/
+/*  var reg=/\d+?/g;
+  var str="zhufeng2016peixun2017";
+  var ary=str.match(reg);
+  console.log(ary);*/
+/*  var str="20151213";
+  var ary=["零","壹","贰","叁","肆","伍"];
+  str=str.replace(/\d/g, function () {
+      var num=arguments[0];//作为数组的索引
+      return ary[num];
+  });
+  console.log(str);*/
+/*  var arr=[12,34,32,56,39,68,46];
+  arr.sort((a,b)=>a-b);
+  console.log(arr);*/
+  /*console.log(Math.max(eval(ary.toString())));*/
+  /*var s=ary.toString();
+  console.log(Math.max.call(null,...ary));*/
+ /* for(var i=0; i<arr.length;i++)
+  {
+      for(var j=i+1;j<arr.length;j++)
+      {
+          if(arr[i]>arr[j])
+          {
+              temp=arr[i];
+              arr[i]=arr[j];
+              arr[j]=temp;
+          }
+      }
+  }
+  console.log(arr);
+  var ary=[12,34,32,56,39,68,46];
+  var max=ary[0];
+  ary.forEach(item=>{
+     if(max<item){
+         max=item;
+     }
+  });
+  console.log(max);*/
+  var str="abcdaecmfsa";
+  var json={};
+  for(var i=0;i<str.length;i++){
+      if(!json[str.charAt(i)]){
+          json[str.charAt(i)]=1;
+      }else{
+          json[str.charAt(i)]++;
+      }
+  }
+  var max=0,value="";
+  for(var o in json){
+      if(json[o]>max){
+          max=json[o];
+          value=o;
+      }
+  }
+  console.log(max, value);
+</script>
+</body>
+</html>
