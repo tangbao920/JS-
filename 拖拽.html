@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            background: #e1e1e1;
+            overflow: hidden;
+        }
+
+        #box {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background: green;
+            cursor: move;
+        }
+    </style>
+</head>
+<body>
+<div id="box"></div>
+<script>
+    var obox=document.getElementById("box");
+    obox.style.left=((document.documentElement.clientWidth||document.body.clientWidth)-obox.offsetWidth)/2+"px";
+    obox.style.top=((document.documentElement.clientHeight||document.body.clientHeight)-obox.offsetHeight)/2+"px";
+    obox.onmousedown=down;
+    function down(e) {
+        e=e||window.event;
+       //记录开始的位置
+       this["strX"]=e.clientX;
+       this["strY"]=e.clientY;
+       this["curL"]=parseFloat(this.style.left);
+       this["curT"]=parseFloat(this.style.top);
+        if (this.setCapture) {
+            this.setCapture();//->在IE和火狐浏览器中支持这个方法:把鼠标和当前的盒子this绑定在一起了,不管鼠标多快,盒子都可以跟着运动
+            this.onmousemove=move;//鼠标按下去后，绑定move事件，当鼠标move的时候，开始移动。
+            this.onmouseup=up;//当鼠标抬起的时候,取消事件绑定
+        }else{
+            var _this=this;
+            document.onmousemove=move.bind(_this);
+            document.onmouseup=up.bind(_this);
+            /*document.onmousemove=function (e) {
+                move.call(_this,e);//执行move方法，并改变move方法中的this指向
+            }
+*/
+        }
+        //谷歌:不管鼠标运动多快,始终逃不出document,这样的话我们就把mousemove/mouseup绑定给document,当方法执行的时候控制盒子运动
+    }
+    function move(e) {
+        e = e || window.event;
+        var changeX = e.clientX - parseFloat(this["strX"]);
+        var curL = this["curL"] + changeX;
+        var changeY = e.clientY - parseFloat(this["strY"]);
+        var curT = changeY + this["curT"];
+        var winH = document.documentElement.clientHeight || document.body.clientHeight,
+            winW = document.documentElement.clientWidth || document.body.clientWidth;
+        var markH = this.offsetHeight, markW = this.offsetWidth;
+        var minL = 0, maxL = winW - markW, minT = 0, maxT = winH - markH;
+        curL = curL <= minL ? minL : (curL >= maxL ? maxL : curL);
+        curT = curT <= minT ? minT : (curT >= maxT ? maxT : curT);
+        this.style.top = curT + "px";
+        this.style.left = curL + "px";
+    }
+    function up() {
+       //移除move up事件
+        if(this.releaseCapture){
+           this.releaseCapture();
+            this.onmousemove=null;
+            this.onmouseup=null;
+        }else{
+            document.onmousemove=null;
+            document.onmouseup=null;
+        }
+    }
+</script>
+</body>
+</html>

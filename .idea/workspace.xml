@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc76f518-131a-4033-b2fa-2d195aa86ac4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/拖拽.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dd.html" beforeDir="false" afterPath="$PROJECT_DIR$/dd.html" afterDir="false" />
     </list>
@@ -17,16 +18,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dd.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dd.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dd.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="843">
-              <caret line="46" column="5" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+            <state relative-caret-position="442">
+              <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="拖拽.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/拖拽.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1400">
+              <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="鼠标跟随22.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/鼠标跟随22.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/utils.min.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="tt.html" pinned="false" current-in-tab="false">
@@ -55,6 +79,7 @@
       <list>
         <option value="$PROJECT_DIR$/tt.html" />
         <option value="$PROJECT_DIR$/dd.html" />
+        <option value="$PROJECT_DIR$/拖拽.html" />
       </list>
     </option>
   </component>
@@ -71,7 +96,7 @@
     <option name="x" value="1280" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="1177" />
+    <option name="height" value="1124" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -79,7 +104,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,10 +111,16 @@
               <item name="JS基础" type="b2602c69:ProjectViewProjectNode" />
               <item name="JS基础" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JS基础" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JS基础" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -112,10 +142,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.鼠标跟随22.html">
+    <configuration name="鼠标跟随22.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS基础/鼠标跟随22.html" />
+    <configuration name="拖拽.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS基础/拖拽.html" />
     <configuration name="dd.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS基础/dd.html" />
+    <list>
+      <item itemvalue="JavaScript Debug.dd.html" />
+      <item itemvalue="JavaScript Debug.拖拽.html" />
+      <item itemvalue="JavaScript Debug.鼠标跟随22.html" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.鼠标跟随22.html" />
+        <item itemvalue="JavaScript Debug.拖拽.html" />
         <item itemvalue="JavaScript Debug.dd.html" />
       </list>
     </recent_temporary>
@@ -134,11 +173,13 @@
       <workItem from="1532931677686" duration="5729000" />
       <workItem from="1533722774144" duration="8436000" />
       <workItem from="1533894200702" duration="1712000" />
+      <workItem from="1533899058984" duration="39000" />
+      <workItem from="1534144400254" duration="7108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29203000" />
+    <option name="totallyTimeSpent" value="36350000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -150,19 +191,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="23" width="1920" height="1177" extended-state="0" />
+    <frame x="1280" y="23" width="1920" height="1124" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16587678" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297561" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32911393" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32911393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3466407" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.36416748" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -179,6 +220,40 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="46" column="5" selection-start-line="38" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3014">
+          <caret line="137" column="26" selection-start-line="137" selection-start-column="26" selection-end-line="137" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3014">
+          <caret line="137" column="26" selection-start-line="137" selection-start-column="26" selection-end-line="137" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dd.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -236,11 +311,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dd.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="843">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="442">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/拖拽.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/utils.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/鼠标跟随22.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>

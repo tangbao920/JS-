@@ -25,9 +25,19 @@
 <div>课程说明11</div>
 <div>课程说明2</div>
 <div id="oDIV"></div>
+<button id="otn">点击我</button>
 <script>
     var test=document.getElementById("test");
-    function getElementLeft(el) {
+    var otn=document.getElementById("otn");
+
+    console.dir(otn);
+    otn.addEventListener("click",function () {
+        console.log(1);
+    },false);
+    otn.addEventListener("click",function () {
+        console.log(2);
+    },false);
+   /* function getElementLeft(el) {
         var left=el.offsetLeft;
         var cur=el.offsetParent;
         while (cur!=null){
@@ -48,7 +58,8 @@
 
     console.log(getElementTop(test));
 
-    console.log(getElementLeft(test));
+    console.log(getElementLeft(test));*/
+
 </script>
 </body>
 </html>
