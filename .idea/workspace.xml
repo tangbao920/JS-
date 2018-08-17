@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc76f518-131a-4033-b2fa-2d195aa86ac4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/拖拽.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dd.html" beforeDir="false" afterPath="$PROJECT_DIR$/dd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt.html" beforeDir="false" afterPath="$PROJECT_DIR$/tt.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,17 +31,26 @@
       <file leaf-file-name="拖拽.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/拖拽.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1400">
-              <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
+            <state relative-caret-position="436">
+              <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="鼠标跟随22.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="鼠标跟随22.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/鼠标跟随22.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="457">
+              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="this.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/this.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -56,8 +63,17 @@
       <file leaf-file-name="tt.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tt.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3014">
-              <caret line="137" column="26" selection-start-line="137" selection-start-column="26" selection-end-line="137" selection-end-column="26" />
+            <state relative-caret-position="1203">
+              <caret line="149" selection-start-line="149" selection-end-line="151" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lunbo.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/lunbo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3024">
+              <caret line="193" column="30" selection-start-line="193" selection-start-column="30" selection-end-line="193" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -67,6 +83,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -77,9 +94,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tt.html" />
         <option value="$PROJECT_DIR$/dd.html" />
         <option value="$PROJECT_DIR$/拖拽.html" />
+        <option value="$PROJECT_DIR$/this.js" />
+        <option value="$PROJECT_DIR$/tt.html" />
+        <option value="$PROJECT_DIR$/js/lunbo.html" />
       </list>
     </option>
   </component>
@@ -92,7 +111,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1280" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
@@ -130,6 +149,12 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -142,17 +167,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.鼠标跟随22.html">
+  <component name="RunManager" selected="JavaScript Debug.tt.html">
     <configuration name="鼠标跟随22.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS基础/鼠标跟随22.html" />
     <configuration name="拖拽.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS基础/拖拽.html" />
     <configuration name="dd.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS基础/dd.html" />
+    <configuration name="tt.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS基础/tt.html" />
+    <configuration name="this.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="this.js" working-dir="$PROJECT_DIR$" />
     <list>
       <item itemvalue="JavaScript Debug.dd.html" />
       <item itemvalue="JavaScript Debug.拖拽.html" />
       <item itemvalue="JavaScript Debug.鼠标跟随22.html" />
+      <item itemvalue="Node.js.this.js" />
+      <item itemvalue="JavaScript Debug.tt.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.tt.html" />
+        <item itemvalue="Node.js.this.js" />
         <item itemvalue="JavaScript Debug.鼠标跟随22.html" />
         <item itemvalue="JavaScript Debug.拖拽.html" />
         <item itemvalue="JavaScript Debug.dd.html" />
@@ -174,12 +205,12 @@
       <workItem from="1533722774144" duration="8436000" />
       <workItem from="1533894200702" duration="1712000" />
       <workItem from="1533899058984" duration="39000" />
-      <workItem from="1534144400254" duration="7108000" />
+      <workItem from="1534144400254" duration="11966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36350000" />
+    <option name="totallyTimeSpent" value="41208000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -191,17 +222,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="23" width="1920" height="1124" extended-state="0" />
+    <frame x="1280" y="23" width="1920" height="1124" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16587678" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297561" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3466407" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32911393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.36416748" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34661725" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -218,6 +249,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dd.html">
@@ -302,13 +338,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3014">
-          <caret line="137" column="26" selection-start-line="137" selection-start-column="26" selection-end-line="137" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dd.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -319,20 +348,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/拖拽.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1400">
-          <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/utils.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/鼠标跟随22.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="457">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/this.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/拖拽.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1203">
+          <caret line="149" selection-start-line="149" selection-end-line="151" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/lunbo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3024">
+          <caret line="193" column="30" selection-start-line="193" selection-start-column="30" selection-end-line="193" selection-end-column="30" />
         </state>
       </provider>
     </entry>
